@@ -1,0 +1,283 @@
+Info | 2022-07-31 19:04:11.543 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:04:11.548 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:08:02.049 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:08:02.054 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:09:56.390 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:09:56.396 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:10:33.381 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:10:33.385 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:10:46.688 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:10:46.694 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:11:26.311 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:11:26.315 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:12:16.138 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:12:16.144 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:12:41.999 PM | req-1 | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:12:42.028 PM | req-1 | [-] | Cannot destructure property 'page' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:12:42.033 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:13:31.853 PM | req-2 | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:13:31.885 PM | req-2 | [-] | Cannot destructure property 'page' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:13:31.887 PM | req-2 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:15:36.266 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:15:36.270 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:15:36.605 PM | req-1 | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:15:36.635 PM | req-1 | [-] | Cannot destructure property 'page' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:15:36.638 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:16:27.413 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:16:27.420 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:17:01.385 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:17:01.389 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:17:10.088 PM | req-1 | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:17:10.121 PM | req-1 | [-] | Cannot destructure property 'page' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:17:10.127 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:17:56.643 PM | req-2 | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:17:56.652 PM | req-2 | [-] | Cannot destructure property 'page' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:17:56.653 PM | req-2 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:18:58.524 PM | req-3 | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:18:58.534 PM | req-3 | [-] | Cannot destructure property 'page' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:18:58.536 PM | req-3 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:19:41.887 PM | req-4 | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:19:41.897 PM | req-4 | [-] | Cannot destructure property 'page' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:19:41.898 PM | req-4 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:19:53.145 PM | req-5 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:19:53.147 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:19:53.170 PM | req-6 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:19:53.175 PM | req-7 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:19:53.177 PM | req-8 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:19:53.178 PM | req-9 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:19:53.179 PM | req-9 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:19:53.182 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:19:53.184 PM | req-7 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:19:53.187 PM | req-8 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:19:53.465 PM | req-a | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:19:53.469 PM | req-a | {"statusCode":304} | request completed
+Info | 2022-07-31 19:20:13.684 PM | req-b | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:20:13.694 PM | req-b | [-] | Cannot destructure property 'page' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:20:13.695 PM | req-b | {"statusCode":503} | request completed
+Info | 2022-07-31 19:22:04.766 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:22:04.771 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:23:13.675 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:23:13.679 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:23:57.882 PM | req-1 | [ - GET - /api/user/list/pagination] | incoming request
+Error | 2022-07-31 19:23:57.911 PM | req-1 | [-] | Cannot destructure property 'pageNum' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:23:57.925 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:24:49.141 PM | req-2 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Error | 2022-07-31 19:24:49.150 PM | req-2 | [-] | Cannot destructure property 'pageNum' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:24:49.152 PM | req-2 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:25:19.867 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:25:19.872 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:25:22.158 PM | req-1 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Error | 2022-07-31 19:25:22.185 PM | req-1 | [-] | Cannot destructure property 'pageNum' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:25:22.191 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:25:28.638 PM | req-2 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Error | 2022-07-31 19:25:28.652 PM | req-2 | [-] | Cannot destructure property 'pageNum' of 'userListDto' as it is undefined.
+Info | 2022-07-31 19:25:28.654 PM | req-2 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:26:56.893 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:26:56.899 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:27:20.750 PM | req-1 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Error | 2022-07-31 19:27:20.789 PM | req-1 | [-] | CustomPaginationMeta is not defined
+Info | 2022-07-31 19:27:20.797 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:28:44.925 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:28:44.929 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:28:52.293 PM | req-1 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Error | 2022-07-31 19:28:52.332 PM | req-1 | [-] | CustomPaginationMeta is not defined
+Info | 2022-07-31 19:28:52.337 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-31 19:30:23.922 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:30:23.928 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:30:31.737 PM | req-1 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-07-31 19:30:31.784 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:31:04.817 PM | req-2 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1&username=test] | incoming request
+Info | 2022-07-31 19:31:04.832 PM | req-2 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:32:50.908 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:32:50.912 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:34:21.331 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:34:21.337 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:35:44.521 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:35:44.526 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:39:37.599 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:39:37.604 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:39:48.916 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:39:48.921 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:39:52.617 PM | req-1 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1&username=test] | incoming request
+Info | 2022-07-31 19:39:52.662 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:40:39.755 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:40:39.761 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:40:40.145 PM | req-1 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1&username=test] | incoming request
+Info | 2022-07-31 19:40:40.192 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:40:51.092 PM | req-2 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-07-31 19:40:51.107 PM | req-2 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:41:20.882 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:41:20.886 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:41:21.062 PM | req-1 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-07-31 19:41:21.109 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:41:44.962 PM | req-2 | [ - POST - /api/auth/login] | incoming request
+Error | 2022-07-31 19:41:45.033 PM | req-2 | [-] | 密码错误！
+Info | 2022-07-31 19:41:45.035 PM | req-2 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:41:50.505 PM | req-3 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-31 19:41:50.577 PM | req-3 | {"statusCode":201} | request completed
+Info | 2022-07-31 19:42:07.789 PM | req-4 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-07-31 19:42:07.801 PM | req-4 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:45:31.346 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:45:31.350 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:45:42.011 PM | req-1 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-07-31 19:45:42.052 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:45:56.803 PM | req-2 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-31 19:45:56.890 PM | req-2 | {"statusCode":201} | request completed
+Info | 2022-07-31 19:46:55.061 PM | req-3 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-07-31 19:46:55.072 PM | req-3 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:47:20.965 PM | req-4 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:47:20.968 PM | req-4 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:47:20.986 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:47:20.990 PM | req-6 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:47:20.993 PM | req-5 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:20.995 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:20.998 PM | req-7 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:47:20.999 PM | req-8 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:47:21.000 PM | req-8 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:47:21.003 PM | req-7 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:21.257 PM | req-9 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:47:21.259 PM | req-9 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:36.203 PM | req-a | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:47:36.205 PM | req-a | {"statusCode":200} | request completed
+Info | 2022-07-31 19:47:36.229 PM | req-b | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:47:36.231 PM | req-c | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:47:36.233 PM | req-d | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:47:36.234 PM | req-e | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:47:36.236 PM | req-e | {"statusCode":200} | request completed
+Info | 2022-07-31 19:47:36.238 PM | req-b | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:36.239 PM | req-c | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:36.241 PM | req-d | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:36.521 PM | req-f | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:47:36.523 PM | req-f | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:55.316 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:47:55.320 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:47:55.494 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:47:55.502 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:47:55.516 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:47:55.519 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:47:55.522 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:55.524 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:55.525 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:47:55.526 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:47:55.529 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:47:55.531 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:47:55.668 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:47:55.669 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:48:40.798 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:48:40.803 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:48:40.836 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:48:40.843 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:48:40.857 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:48:40.860 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:48:40.865 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:48:40.881 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:48:40.884 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:48:40.886 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:48:40.887 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:48:40.888 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:48:41.042 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:48:41.044 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:49:50.774 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:49:50.778 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:49:50.802 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:49:50.807 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:49:50.822 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:49:50.826 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:49:50.827 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:49:50.830 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:49:50.832 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:49:50.834 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:49:50.835 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:49:50.837 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:49:50.979 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:49:50.981 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:50:16.674 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:50:16.678 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:50:16.754 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:50:16.766 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:50:16.782 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:50:16.789 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:50:16.791 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:50:16.792 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:50:16.794 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:50:16.795 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:50:16.796 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:50:16.799 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:50:16.933 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:50:16.935 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:51:01.726 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:51:01.730 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:51:01.799 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:51:01.804 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:51:01.820 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:51:01.825 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:51:01.826 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:51:01.829 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:51:01.832 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:51:01.833 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:51:01.838 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:51:01.839 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:51:01.986 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:51:01.988 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:53:43.647 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:53:43.651 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:53:45.575 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:53:45.582 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:53:45.595 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:53:45.598 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:53:45.601 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:53:45.604 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:53:45.606 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:53:45.607 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:53:45.608 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:53:45.609 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:53:45.753 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:53:45.754 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:54:22.209 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:54:22.214 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:54:22.305 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:54:22.322 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:54:22.335 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:54:22.341 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:54:22.342 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:54:22.343 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:54:22.344 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:54:22.346 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:54:22.349 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:54:22.350 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:54:22.487 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:54:22.488 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:55:20.879 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:55:20.883 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:55:39.658 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:55:39.663 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:56:06.306 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:56:06.310 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:56:22.664 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 19:56:22.669 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 19:56:32.251 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:56:32.260 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:56:32.272 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:56:32.276 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:56:32.279 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:56:32.280 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:56:32.282 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:56:32.284 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:56:32.285 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:56:32.288 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:56:32.543 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:56:32.545 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:56:53.086 PM | req-7 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 19:56:53.088 PM | req-7 | {"statusCode":200} | request completed
+Info | 2022-07-31 19:56:53.103 PM | req-8 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 19:56:53.105 PM | req-9 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 19:56:53.106 PM | req-a | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 19:56:53.107 PM | req-b | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 19:56:53.109 PM | req-b | {"statusCode":200} | request completed
+Info | 2022-07-31 19:56:53.110 PM | req-8 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:56:53.112 PM | req-9 | {"statusCode":304} | request completed
+Info | 2022-07-31 19:56:53.113 PM | req-a | {"statusCode":304} | request completed
+Info | 2022-07-31 19:56:53.401 PM | req-c | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 19:56:53.403 PM | req-c | {"statusCode":304} | request completed
+Info | 2022-07-31 19:57:02.299 PM | req-d | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-07-31 19:57:02.334 PM | req-d | {"statusCode":200} | request completed

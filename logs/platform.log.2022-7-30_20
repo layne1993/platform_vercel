@@ -1,0 +1,189 @@
+Info | 2022-07-30 19:02:32.544 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:02:32.549 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:03:26.070 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-30 19:03:26.078 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:03:26.106 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-30 19:03:26.110 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-30 19:03:26.115 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:03:26.118 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:03:26.119 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-30 19:03:26.121 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-30 19:03:26.122 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:03:26.125 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:03:26.378 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-30 19:03:26.380 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:03:34.328 PM | req-7 | [ - GET - /api/user] | incoming request
+Error | 2022-07-30 19:03:34.332 PM | req-7 | [-] | 身份验证失败
+Info | 2022-07-30 19:03:34.334 PM | req-7 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:04:02.684 PM | req-8 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-30 19:04:02.777 PM | req-8 | {"statusCode":201} | request completed
+Info | 2022-07-30 19:04:09.282 PM | req-9 | [ - GET - /api/user] | incoming request
+Error | 2022-07-30 19:04:09.283 PM | req-9 | [-] | 身份验证失败
+Info | 2022-07-30 19:04:09.285 PM | req-9 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:05:55.570 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:05:55.574 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:05:55.754 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-30 19:05:55.760 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:05:55.773 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-30 19:05:55.779 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:05:55.780 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-30 19:05:55.782 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-30 19:05:55.784 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-30 19:05:55.786 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:05:55.787 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:05:55.788 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:05:56.059 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-30 19:05:56.060 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:06:53.595 PM | req-7 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-30 19:06:53.683 PM | req-7 | {"statusCode":201} | request completed
+Info | 2022-07-30 19:07:03.378 PM | req-8 | [ - GET - /api/user/getCurrentUserInfo] | incoming request
+Error | 2022-07-30 19:07:03.382 PM | req-8 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:07:03.384 PM | req-8 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:07:49.371 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:07:49.376 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:07:56.757 PM | req-1 | [ - GET - /api/user/getCurrentUserInfo] | incoming request
+Error | 2022-07-30 19:07:56.765 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:07:56.771 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:08:58.125 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:08:58.128 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:09:11.818 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:09:11.825 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:10:41.326 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:10:41.330 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:10:50.148 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:10:50.152 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:10:53.954 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:10:53.960 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:11:03.252 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:11:03.258 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:11:32.587 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-30 19:11:32.596 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:11:32.609 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-30 19:11:32.613 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-30 19:11:32.616 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:11:32.617 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:11:32.619 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-30 19:11:32.620 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-30 19:11:32.622 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:11:32.626 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:11:32.770 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-30 19:11:32.773 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:11:59.012 PM | req-7 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-30 19:11:59.108 PM | req-7 | {"statusCode":201} | request completed
+Info | 2022-07-30 19:12:27.199 PM | req-8 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:12:27.203 PM | req-8 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:12:27.205 PM | req-8 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:13:21.020 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:13:21.025 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:13:27.446 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:13:27.453 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:13:27.459 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:14:09.815 PM | req-2 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-30 19:14:09.901 PM | req-2 | {"statusCode":201} | request completed
+Info | 2022-07-30 19:14:56.923 PM | req-3 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:14:56.924 PM | req-3 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:14:56.925 PM | req-3 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:16:46.702 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:16:46.706 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:16:50.620 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:16:50.628 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:16:50.632 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:17:24.777 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:17:24.783 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:17:28.586 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:17:28.593 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:17:28.599 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:19:59.877 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:19:59.882 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:20:22.737 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:20:22.743 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:21:05.201 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:21:05.206 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:21:30.741 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:21:30.745 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:21:31.178 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:21:31.191 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:21:31.197 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:23:14.677 PM | req-2 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-30 19:23:14.680 PM | req-2 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:23:14.696 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-30 19:23:14.699 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-30 19:23:14.704 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:23:14.705 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:23:14.707 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-30 19:23:14.708 PM | req-6 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-30 19:23:14.710 PM | req-6 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:23:14.711 PM | req-5 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:23:14.957 PM | req-7 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-30 19:23:14.959 PM | req-7 | {"statusCode":304} | request completed
+Info | 2022-07-30 19:24:06.561 PM | req-8 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-30 19:24:06.645 PM | req-8 | {"statusCode":201} | request completed
+Info | 2022-07-30 19:24:37.949 PM | req-9 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:24:37.951 PM | req-9 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:24:37.952 PM | req-9 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:24:52.262 PM | req-a | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:24:52.264 PM | req-a | [-] | 身份验证失败
+Info | 2022-07-30 19:24:52.265 PM | req-a | {"statusCode":200} | request completed
+Info | 2022-07-30 19:25:17.053 PM | req-b | [ - GET - /api/auth/token/info?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4NjI2NDBmLTdjODItNGZkZi1iMGMzLTVhYWYzMjE5NTUyMSIsInVzZXJuYW1lIjoidGVzdDEyMzQiLCJtb2JpbGUiOiIxMzE0ODMyNzMyMyIsImlhdCI6MTY1OTE4MDI0NiwiZXhwIjoxNjU5MTk0NjQ2fQ.eBF8x7cEa7KFqWuaE3nZl0vNiTc30GSNsIeEeoLfpgk] | incoming request
+Error | 2022-07-30 19:25:17.054 PM | req-b | [-] | 身份验证失败
+Info | 2022-07-30 19:25:17.056 PM | req-b | {"statusCode":200} | request completed
+Info | 2022-07-30 19:25:25.343 PM | req-c | [ - GET - /api/auth/token/info?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4NjI2NDBmLTdjODItNGZkZi1iMGMzLTVhYWYzMjE5NTUyMSIsInVzZXJuYW1lIjoidGVzdDEyMzQiLCJtb2JpbGUiOiIxMzE0ODMyNzMyMyIsImlhdCI6MTY1OTE4MDI0NiwiZXhwIjoxNjU5MTk0NjQ2fQ.eBF8x7cEa7KFqWuaE3nZl0vNiTc30GSNsIeEeoLfpgk] | incoming request
+Error | 2022-07-30 19:25:25.345 PM | req-c | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:25:25.346 PM | req-c | {"statusCode":503} | request completed
+Info | 2022-07-30 19:25:34.982 PM | req-d | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:25:35.020 PM | req-d | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:25:35.022 PM | req-d | {"statusCode":503} | request completed
+Info | 2022-07-30 19:25:57.130 PM | req-e | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:25:57.131 PM | req-e | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:25:57.132 PM | req-e | {"statusCode":503} | request completed
+Info | 2022-07-30 19:26:02.580 PM | req-f | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:26:02.582 PM | req-f | [-] | 身份验证失败
+Info | 2022-07-30 19:26:02.584 PM | req-f | {"statusCode":200} | request completed
+Info | 2022-07-30 19:28:38.926 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:28:38.931 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:30:08.202 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:30:08.205 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:30:18.281 PM | req-1 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-30 19:30:18.371 PM | req-1 | {"statusCode":201} | request completed
+Info | 2022-07-30 19:30:38.671 PM | req-2 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:30:38.676 PM | req-2 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:30:38.678 PM | req-2 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:31:51.917 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:31:51.921 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:33:09.815 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:33:09.819 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:33:12.810 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:33:12.820 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:33:12.824 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:33:47.588 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:33:47.592 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:33:50.478 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:33:50.488 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:33:50.493 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:34:36.631 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:34:36.635 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:34:38.833 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:34:38.847 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:34:38.852 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:35:42.985 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:35:42.989 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:35:45.128 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:35:45.142 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:35:45.147 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:36:13.758 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:36:13.762 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:36:15.165 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Error | 2022-07-30 19:36:15.180 PM | req-1 | [-] | Property "0" was not found in "User". Make sure your query is correct.
+Info | 2022-07-30 19:36:15.187 PM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-30 19:37:03.202 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:37:03.208 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:37:05.953 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Info | 2022-07-30 19:37:06.010 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:38:39.790 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:38:39.794 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:38:39.971 PM | req-1 | [ - GET - /api/auth/token/info] | incoming request
+Info | 2022-07-30 19:38:40.037 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-30 19:39:30.115 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:39:30.122 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-30 19:39:47.815 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-30 19:39:47.820 PM | _logId_ | [-] | Server listening at http://[::1]:3000

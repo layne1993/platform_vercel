@@ -1,0 +1,92 @@
+Info | 2022-07-31 18:03:26.468 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:03:26.473 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:06:38.731 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:06:38.735 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:07:14.928 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:07:14.935 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:07:22.795 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:07:22.801 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:08:17.473 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:08:17.477 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:08:49.650 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:08:49.654 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:21:52.497 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:21:52.501 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:22:25.969 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:22:25.974 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:29:11.473 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:29:11.477 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:29:27.888 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:29:27.893 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:30:11.819 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:30:11.823 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:30:34.928 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 18:30:34.939 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 18:30:34.962 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 18:30:34.966 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 18:30:34.968 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 18:30:34.969 PM | req-4 | {"statusCode":200} | request completed
+Info | 2022-07-31 18:30:34.970 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 18:30:34.974 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 18:30:34.975 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 18:30:34.977 PM | req-5 | {"statusCode":304} | request completed
+Info | 2022-07-31 18:30:35.319 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 18:30:35.322 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 18:32:07.772 PM | req-7 | [ - POST - /api/user/createUser] | incoming request
+Error | 2022-07-31 18:32:07.788 PM | req-7 | [-] | Bad Request Exception
+Info | 2022-07-31 18:32:07.790 PM | req-7 | {"statusCode":400} | request completed
+Info | 2022-07-31 18:32:23.199 PM | req-8 | [ - POST - /api/user/createUser] | incoming request
+Error | 2022-07-31 18:32:23.207 PM | req-8 | [-] | Bad Request Exception
+Info | 2022-07-31 18:32:23.209 PM | req-8 | {"statusCode":400} | request completed
+Info | 2022-07-31 18:32:38.343 PM | req-9 | [ - POST - /api/user/createUser] | incoming request
+Info | 2022-07-31 18:32:38.459 PM | req-9 | {"statusCode":201} | request completed
+Info | 2022-07-31 18:34:38.314 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:34:38.318 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:35:37.497 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:35:37.501 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:36:25.276 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:36:25.281 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:36:42.784 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:36:42.790 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:36:45.723 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-31 18:36:45.733 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 18:36:45.746 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-31 18:36:45.750 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-31 18:36:45.753 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-31 18:36:45.754 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-31 18:36:45.757 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-31 18:36:45.760 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-31 18:36:45.761 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-31 18:36:45.763 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-07-31 18:36:46.026 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-31 18:36:46.028 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-07-31 18:40:20.850 PM | req-7 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-31 18:40:20.940 PM | req-7 | {"statusCode":201} | request completed
+Info | 2022-07-31 18:41:57.118 PM | req-8 | [ - GET - /api/user/createUser] | incoming request
+Error | 2022-07-31 18:41:57.120 PM | req-8 | [-] | Cannot GET /api/user/createUser
+Info | 2022-07-31 18:41:57.121 PM | req-8 | {"statusCode":404} | request completed
+Info | 2022-07-31 18:42:06.872 PM | req-9 | [ - POST - /api/user/createUser] | incoming request
+Info | 2022-07-31 18:42:06.913 PM | req-9 | {"statusCode":201} | request completed
+Info | 2022-07-31 18:43:00.993 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:43:00.998 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:43:15.922 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:43:15.926 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:43:28.331 PM | req-1 | [ - POST - /api/user/createUser] | incoming request
+Info | 2022-07-31 18:43:28.367 PM | req-1 | {"statusCode":201} | request completed
+Info | 2022-07-31 18:45:42.417 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:45:42.421 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:45:49.997 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:45:50.002 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:46:19.101 PM | req-1 | [ - POST - /api/user/createUser] | incoming request
+Error | 2022-07-31 18:46:19.129 PM | req-1 | [-] | 仅超级管理员可以创建用户
+Info | 2022-07-31 18:46:19.134 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-31 18:46:49.198 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:46:49.203 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:46:51.030 PM | req-1 | [ - POST - /api/user/createUser] | incoming request
+Info | 2022-07-31 18:46:51.158 PM | req-1 | {"statusCode":201} | request completed
+Info | 2022-07-31 18:56:13.882 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:56:13.886 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:56:48.058 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:56:48.063 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-31 18:58:36.794 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-31 18:58:36.798 PM | _logId_ | [-] | Server listening at http://[::1]:3000

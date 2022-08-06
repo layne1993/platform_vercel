@@ -1,79 +1,73 @@
-<!--
- * @Author: your name
- * @Date: 2021-04-01 13:14:01
- * @LastEditTime: 2021-04-18 14:35:43
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \vip-manager\README.md
--->
-发版记录
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-Date:2021年3月1日
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-version 1.0.1
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-新增:
+## Description
 
-产品模板模板生成一期(author:李田叶)
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-优化:
+## Installation
 
-面板刻度的优化(author:唐叔超)
+```bash
+$ npm install
+```
 
-TagName: 1.0.1
+## Running the app
 
+```bash
+# development
+$ npm run start
 
-Date:2021年3月15日
+# watch mode
+$ npm run start:dev
 
-version 2021/03/15
+# production mode
+$ npm run start:prod
+```
 
-新增:
+## Test
 
-营销服务模块、赎回流程、合格投资者认定流程节点美容可配置、产品成立公告模板、信披文件管理、风险测评问卷、G版内嵌生成协议模板
+```bash
+# unit tests
+$ npm run test
 
-优化:
+# e2e tests
+$ npm run test:e2e
 
-银行卡模块优化、产品配置优化、产品净值模块优化、产品开放日优化、产品信息优化、
+# test coverage
+$ npm run test:cov
+```
 
+## Support
 
-TagName: 2021/03/15
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
+## Stay in touch
 
-Date:2021年3月29日
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-version 2021/03/29
+## License
 
-新增:
-
-产品生命周期一期;自定义指标生成;手动更新托管数据;在线客服;
-
-优化:
-
-币种的优化;账号列表的优化;菜单层级的优化;菜单权限的优化;已知bug的修复
-
-
-
-
-以后改为分支发版 分支名-->2021/3/29
-
-
-TagName: 2021/04/12
-
-
-Date:2021年4月12日
-
-version 2021/04/12
-
-新增:
-
-生成产品报表一期,单独双录,单独签署协议
-
-优化:
-
-菜单的优化;已知bug的修复
-
-
-
-
-
-
+Nest is [MIT licensed](LICENSE).

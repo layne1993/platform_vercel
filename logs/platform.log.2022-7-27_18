@@ -1,0 +1,17 @@
+Error | 2022-07-27 17:40:28.643 PM | req-1 | [-] | Cannot GET /api/doc
+Info | 2022-07-27 17:40:28.711 PM | req-1 | {"statusCode":404} | request completed
+Info | 2022-07-27 17:40:28.765 PM | req-2 | [ - GET - /favicon.ico] | incoming request
+Error | 2022-07-27 17:40:28.767 PM | req-2 | [-] | Cannot GET /favicon.ico
+Info | 2022-07-27 17:40:28.772 PM | req-2 | {"statusCode":404} | request completed
+Info | 2022-07-27 17:40:37.276 PM | req-3 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-27 17:40:37.278 PM | req-3 | {"statusCode":200} | request completed
+Info | 2022-07-27 17:40:37.364 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-27 17:40:37.374 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-27 17:40:37.384 PM | req-6 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-27 17:40:37.404 PM | req-4 | {"statusCode":200} | request completed
+Info | 2022-07-27 17:40:37.408 PM | req-7 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-27 17:40:37.411 PM | req-7 | {"statusCode":200} | request completed
+Info | 2022-07-27 17:40:37.416 PM | req-6 | {"statusCode":200} | request completed
+Info | 2022-07-27 17:40:37.425 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-27 17:40:37.716 PM | req-8 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-27 17:40:37.719 PM | req-8 | {"statusCode":200} | request completed

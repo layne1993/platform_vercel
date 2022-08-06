@@ -1,0 +1,8 @@
+Info | 2022-08-01 18:43:38.751 PM | req-7 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-08-01 18:43:38.821 PM | req-8 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-08-01 18:43:38.827 PM | req-9 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-08-01 18:43:38.831 PM | req-a | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-08-01 18:43:38.841 PM | req-a | {"statusCode":200} | request completed
+Info | 2022-08-01 18:43:38.845 PM | req-7 | {"statusCode":304} | request completed
+Info | 2022-08-01 18:43:38.848 PM | req-8 | {"statusCode":304} | request completed
+Info | 2022-08-01 18:43:38.850 PM | req-9 | {"statusCode":304} | request completed

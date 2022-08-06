@@ -1,0 +1,56 @@
+Info | 2022-07-29 11:06:04.888 AM | req-8 | [ - POST - /api/user/register] | incoming request
+Error | 2022-07-29 11:06:04.892 AM | req-8 | [-] | Unexpected string in JSON at position 215
+Info | 2022-07-29 11:06:04.893 AM | req-8 | {"statusCode":400} | request completed
+Info | 2022-07-29 11:06:26.164 AM | req-9 | [ - POST - /api/user/register] | incoming request
+Info | 2022-07-29 11:06:26.283 AM | req-9 | {"statusCode":201} | request completed
+Info | 2022-07-29 11:06:53.654 AM | req-a | [ - POST - /api/auth/login] | incoming request
+Error | 2022-07-29 11:06:53.658 AM | req-a | [-] | Cannot read properties of undefined (reading 'getUserByName')
+Info | 2022-07-29 11:06:53.662 AM | req-a | {"statusCode":503} | request completed
+Info | 2022-07-29 11:07:09.435 AM | req-b | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-29 11:07:09.436 AM | req-b | {"statusCode":200} | request completed
+Info | 2022-07-29 11:07:09.454 AM | req-c | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-29 11:07:09.456 AM | req-d | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-29 11:07:09.458 AM | req-c | {"statusCode":304} | request completed
+Info | 2022-07-29 11:07:09.460 AM | req-d | {"statusCode":304} | request completed
+Info | 2022-07-29 11:07:09.461 AM | req-e | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-29 11:07:09.464 AM | req-f | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-29 11:07:09.466 AM | req-f | {"statusCode":200} | request completed
+Info | 2022-07-29 11:07:09.469 AM | req-e | {"statusCode":304} | request completed
+Info | 2022-07-29 11:07:09.727 AM | req-g | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-07-29 11:07:09.730 AM | req-g | {"statusCode":304} | request completed
+Info | 2022-07-29 11:07:21.184 AM | req-h | [ - POST - /api/auth/login] | incoming request
+Error | 2022-07-29 11:07:21.186 AM | req-h | [-] | Cannot read properties of undefined (reading 'getUserByName')
+Info | 2022-07-29 11:07:21.188 AM | req-h | {"statusCode":503} | request completed
+Info | 2022-07-29 11:08:15.678 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-29 11:08:15.682 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-29 11:09:26.838 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-29 11:09:26.842 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-29 11:09:29.299 AM | req-1 | [ - POST - /api/auth/login] | incoming request
+Error | 2022-07-29 11:09:29.309 AM | req-1 | [-] | Cannot read properties of undefined (reading 'getUserByName')
+Info | 2022-07-29 11:09:29.315 AM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-29 11:10:47.704 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-29 11:10:47.710 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-29 11:10:47.742 AM | req-1 | [ - POST - /api/auth/login] | incoming request
+Error | 2022-07-29 11:10:47.757 AM | req-1 | [-] | Cannot read properties of undefined (reading 'getUserByName')
+Info | 2022-07-29 11:10:47.766 AM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-29 11:15:15.046 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-29 11:15:15.050 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-29 11:33:01.630 AM | req-1 | [ - POST - /api/auth/login] | incoming request
+Error | 2022-07-29 11:33:01.638 AM | req-1 | [-] | Cannot read properties of undefined (reading 'getUserByName')
+Info | 2022-07-29 11:33:01.643 AM | req-1 | {"statusCode":503} | request completed
+Info | 2022-07-29 11:38:00.382 AM | req-2 | [ - POST - /api/auth/login] | incoming request
+Error | 2022-07-29 11:38:08.865 AM | req-2 | [-] | Cannot read properties of undefined (reading 'getUserByName')
+Info | 2022-07-29 11:38:08.867 AM | req-2 | {"statusCode":503} | request completed
+Info | 2022-07-29 11:38:14.120 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-29 11:38:14.124 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-29 11:38:16.641 AM | req-1 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-07-29 11:38:16.664 AM | req-1 | {"statusCode":201} | request completed
+Info | 2022-07-29 11:41:43.158 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-29 11:41:43.163 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-29 11:42:10.943 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-29 11:42:10.947 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-29 11:42:22.257 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-29 11:42:22.263 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-29 11:42:29.256 AM | req-1 | [ - POST - /api/auth/login] | incoming request
+Error | 2022-07-29 11:42:29.264 AM | req-1 | [-] | Cannot read properties of undefined (reading 'getUserByName')
+Info | 2022-07-29 11:42:29.268 AM | req-1 | {"statusCode":503} | request completed

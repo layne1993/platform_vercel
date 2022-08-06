@@ -1,0 +1,96 @@
+Info | 2022-08-03 23:08:32.313 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:08:32.318 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:15:15.637 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:15:15.641 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:22:05.904 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:22:05.907 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:27:08.071 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:27:08.076 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:28:54.331 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:28:54.335 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:29:13.521 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:29:13.525 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:29:22.680 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:29:22.686 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:30:13.953 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:30:13.959 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:31:30.384 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:31:30.388 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:33:00.922 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:33:00.927 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:36:51.627 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:36:51.632 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:48:10.571 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:48:10.579 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:48:18.248 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:48:18.253 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:50:47.861 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-08-03 23:50:47.868 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:50:47.905 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-08-03 23:50:47.909 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-08-03 23:50:47.910 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-08-03 23:50:47.912 PM | req-4 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:50:47.913 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-08-03 23:50:47.917 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:50:47.918 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:50:47.920 PM | req-5 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:50:48.256 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-08-03 23:50:48.258 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:52:23.470 PM | req-7 | [ - GET - /api/goods/list/pagination?name=dd&status=disabled&pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-03 23:52:23.473 PM | req-7 | [-] | 身份验证失败
+Info | 2022-08-03 23:52:23.475 PM | req-7 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:52:48.364 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:52:48.373 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:53:56.571 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:53:56.576 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:53:56.724 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-08-03 23:53:56.731 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:53:56.746 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-08-03 23:53:56.752 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:53:56.753 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-08-03 23:53:56.755 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-08-03 23:53:56.756 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-08-03 23:53:56.757 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:53:56.758 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:53:56.759 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:53:57.136 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-08-03 23:53:57.138 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:55:02.495 PM | req-7 | [ - GET - /api/goods/list/pagination?name=2&status=disabled&pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-03 23:55:02.499 PM | req-7 | [-] | 身份验证失败
+Info | 2022-08-03 23:55:02.502 PM | req-7 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:55:36.094 PM | req-8 | [ - GET - /api/goods/list/pagination?pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-03 23:55:36.097 PM | req-8 | [-] | 身份验证失败
+Info | 2022-08-03 23:55:36.098 PM | req-8 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:55:52.520 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:55:52.524 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:55:52.643 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-08-03 23:55:52.653 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:55:52.667 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-08-03 23:55:52.674 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:55:52.675 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-08-03 23:55:52.676 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-08-03 23:55:52.678 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-08-03 23:55:52.679 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:55:52.680 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:55:52.683 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:55:52.867 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-08-03 23:55:52.869 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-08-03 23:55:56.577 PM | req-7 | [ - GET - /api/goods/list/pagination?pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-03 23:55:56.583 PM | req-7 | [-] | 身份验证失败
+Info | 2022-08-03 23:55:56.586 PM | req-7 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:55:58.225 PM | req-8 | [ - GET - /api/goods/list/pagination?pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-03 23:55:58.226 PM | req-8 | [-] | 身份验证失败
+Info | 2022-08-03 23:55:58.227 PM | req-8 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:56:14.608 PM | req-9 | [ - GET - /api/goods/list/pagination?pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-03 23:56:14.609 PM | req-9 | [-] | 身份验证失败
+Info | 2022-08-03 23:56:14.611 PM | req-9 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:56:27.437 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-03 23:56:27.441 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-03 23:56:27.800 PM | req-1 | [ - GET - /api/goods/list/pagination?pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-03 23:56:27.806 PM | req-1 | [-] | 身份验证失败
+Info | 2022-08-03 23:56:27.812 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-08-03 23:56:33.653 PM | req-2 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-08-03 23:56:33.742 PM | req-2 | {"statusCode":201} | request completed
+Info | 2022-08-03 23:56:45.941 PM | req-3 | [ - GET - /api/goods/list/pagination?pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-03 23:56:45.955 PM | req-3 | [-] | No metadata for "Goods" was found.
+Info | 2022-08-03 23:56:45.956 PM | req-3 | {"statusCode":503} | request completed

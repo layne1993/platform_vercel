@@ -1,0 +1,21 @@
+MYSQL_CONFIG:
+  name: 'laynesql' # 数据库链接名称
+  type: 'mysql' # 数据库链接类型
+  host: 'localhost'
+  port: 3306
+  username: 'root'
+  password: 'laynesql'
+  database: 'platform'
+  entities: 'mysql' # 自定义加载类型
+  synchronize: true # 容易造成数据丢失，生产环境记得关闭，以免造成无可预计的损失
+REDIS_CONFIG:
+  host: 'localhost'
+  port: 6379
+  auth: '123456'
+  db: 2
+
+
+
+
+
+

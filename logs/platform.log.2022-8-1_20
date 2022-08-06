@@ -1,0 +1,57 @@
+Info | 2022-08-01 19:30:14.499 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:30:14.504 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:30:54.671 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:30:54.679 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:31:30.993 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:31:30.997 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:44:03.795 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:44:03.800 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:46:48.473 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:46:48.479 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:47:01.690 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:47:01.695 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:47:15.904 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:47:15.908 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:47:28.445 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:47:28.452 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:49:53.661 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:49:53.667 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:50:08.600 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:50:08.605 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:50:11.851 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-08-01 19:50:11.858 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-08-01 19:50:11.875 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-08-01 19:50:11.878 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-08-01 19:50:11.884 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-08-01 19:50:11.885 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-08-01 19:50:11.887 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-08-01 19:50:11.888 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-08-01 19:50:11.889 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-08-01 19:50:11.890 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-08-01 19:50:11.999 PM | req-6 | [ - GET - /swagger-ui.html/favicon-32x32.png] | incoming request
+Info | 2022-08-01 19:50:12.001 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-08-01 19:50:32.041 PM | req-7 | [ - POST - /api/auth/login] | incoming request
+Info | 2022-08-01 19:50:32.131 PM | req-7 | {"statusCode":201} | request completed
+Info | 2022-08-01 19:50:52.659 PM | req-8 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Error | 2022-08-01 19:50:52.662 PM | req-8 | [-] | 身份验证失败
+Info | 2022-08-01 19:50:52.664 PM | req-8 | {"statusCode":200} | request completed
+Info | 2022-08-01 19:51:33.069 PM | req-9 | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-08-01 19:51:33.093 PM | req-9 | {"statusCode":200} | request completed
+Info | 2022-08-01 19:52:04.512 PM | req-a | [ - POST - /api/user/changeStatus] | incoming request
+Info | 2022-08-01 19:52:04.550 PM | req-a | {"statusCode":201} | request completed
+Info | 2022-08-01 19:52:12.979 PM | req-b | [ - GET - /api/user/list/pagination?pageSize=10&pageNum=1] | incoming request
+Info | 2022-08-01 19:52:12.993 PM | req-b | {"statusCode":200} | request completed
+Info | 2022-08-01 19:52:47.077 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:52:47.081 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:52:47.659 PM | req-1 | [ - POST - /api/user/changeStatus] | incoming request
+Info | 2022-08-01 19:52:47.722 PM | req-1 | {"statusCode":201} | request completed
+Info | 2022-08-01 19:53:22.382 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:53:22.387 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:53:23.090 PM | req-1 | [ - POST - /api/user/changeStatus] | incoming request
+Info | 2022-08-01 19:53:23.143 PM | req-1 | {"statusCode":201} | request completed
+Info | 2022-08-01 19:56:58.600 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:56:58.605 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 19:58:44.434 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 19:58:44.438 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-01 20:00:00.137 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-01 20:00:00.143 PM | _logId_ | [-] | Server listening at http://[::1]:3000

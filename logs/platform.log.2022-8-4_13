@@ -1,0 +1,9 @@
+Info | 2022-08-04 00:09:06.751 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-04 00:09:06.755 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-04 00:09:14.365 AM | req-1 | [ - GET - /api/goods/list/pagination?pageNum=1&pageSize=10] | incoming request
+Error | 2022-08-04 00:09:14.395 AM | req-1 | [-] | Unknown column 'user.updateTime' in 'order clause'
+Info | 2022-08-04 00:09:14.400 AM | req-1 | {"statusCode":503} | request completed
+Info | 2022-08-04 00:09:48.242 AM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-08-04 00:09:48.246 AM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-08-04 00:09:49.496 AM | req-1 | [ - GET - /api/goods/list/pagination?pageNum=1&pageSize=10] | incoming request
+Info | 2022-08-04 00:09:49.534 AM | req-1 | {"statusCode":200} | request completed

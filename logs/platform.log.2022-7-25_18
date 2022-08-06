@@ -1,0 +1,12 @@
+Info | 2022-07-25 17:52:56.897 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-07-25 17:52:56.903 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-07-25 17:53:33.467 PM | req-1 | [ - GET - /swagger-ui.html] | incoming request
+Info | 2022-07-25 17:53:33.472 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-07-25 17:53:33.494 PM | req-2 | [ - GET - /swagger-ui.html/swagger-ui.css] | incoming request
+Info | 2022-07-25 17:53:33.498 PM | req-3 | [ - GET - /swagger-ui.html/swagger-ui-bundle.js] | incoming request
+Info | 2022-07-25 17:53:33.503 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-07-25 17:53:33.505 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-07-25 17:53:33.507 PM | req-4 | [ - GET - /swagger-ui.html/swagger-ui-standalone-preset.js] | incoming request
+Info | 2022-07-25 17:53:33.508 PM | req-5 | [ - GET - /swagger-ui.html/swagger-ui-init.js] | incoming request
+Info | 2022-07-25 17:53:33.510 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-07-25 17:53:33.513 PM | req-4 | {"statusCode":304} | request completed

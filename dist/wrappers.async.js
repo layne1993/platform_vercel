@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[98],{"2kbO":function(a,e,t){"use strict";t.r(e);var n=t("q1tI"),o=t.n(n),c=t("Fl7f"),r=t("9kvl");e["default"]=function(a){var e=Object(r["e"])(),t=a.route;return t.tabLocalId&&(t.tabLocalName=e.formatMessage({id:t.tabLocalId,defaultMessage:t.name})),o.a.createElement(c["a"],a)}}}]);
