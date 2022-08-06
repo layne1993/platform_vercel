@@ -1,0 +1,80 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~@/utils/utils.less';
+
+.tableList {
+  :global {
+    .ant-table-thead > tr > th {
+      padding: 16px 6px;
+    }
+    .ant-table-tbody > tr > td {
+      padding: 10px 6px;
+    }
+    .ant-row {
+      width: 100%;
+    }
+    .ant-form {
+      > div:last-child {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  .customerName {
+    > div {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.tableListForm {
+  :global {
+    .ant-form-item {
+      display: flex;
+      margin-right: 0;
+      margin-bottom: 12px;
+      justify-content: flex-end;
+      > .ant-form-item-label {
+        width: auto;
+        padding-right: 8px;
+        line-height: 32px;
+      }
+      .ant-form-item-control {
+        line-height: 32px;
+      }
+    }
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+  }
+  .submitButtons {
+    display: block;
+    margin-bottom: 24px;
+    white-space: nowrap;
+    text-align: right;
+  }
+}
+
+.administratorList {
+  :global {
+    .ant-checkbox-group::before {
+      content: '选择岗位:';
+      margin-right: 20px;
+    }
+    .ant-checkbox-group{
+      margin-bottom: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-lg) {
+  .tableListForm :global(.ant-form-item) {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: @screen-md) {
+  .tableListForm :global(.ant-form-item) {
+    margin-right: 8px;
+  }
+}

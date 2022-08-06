@@ -1,0 +1,53 @@
+.statisticContent {
+    text-align: center;
+    // margin:0 20px;
+    padding: 24px 0;
+    // width: 190px;
+
+    height: 180px;
+    width:18%;
+
+    &>div {
+        // display: flex;
+        // justify-content: center;
+        span {
+            margin-left: 3px;
+        }
+
+        img {
+            width: 100%;
+            // height: 66px;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+        margin: 0;
+        margin-top: 5px;
+    }
+}
+
+.currencyRadio {
+    text-align: right;
+    padding-right: 24px !important;
+
+
+
+    :global {
+        .ant-radio-button-wrapper {
+            border: none;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within {
+            box-shadow: none;
+        }
+
+        .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+            border-bottom: 1px solid #3D7FFF !important;
+        }
+    }
+}

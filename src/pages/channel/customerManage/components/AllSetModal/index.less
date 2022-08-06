@@ -1,0 +1,31 @@
+.customerList{
+  ul{
+    max-height:100px;
+    overflow-y: auto;
+    li{
+      height:20px;
+      width:100%;
+      margin-bottom:5px;
+      .left{
+        display: inline-block;
+        width:190px;
+        overflow:hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+      }
+      .right{
+        display: inline-block;
+        width:350px;
+        overflow:hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+:global{
+  .ant-divider-horizontal{
+    margin:10px 0
+  }
+}

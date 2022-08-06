@@ -1,0 +1,50 @@
+@import '~antd/es/style/themes/default.less';
+@import '~handsontable/dist/handsontable.full.css';
+
+.productLifeDetail {
+    position: relative;
+    .editInfo {
+        position: relative;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+
+        :global .ant-card-body {
+            overflow: auto;
+            height: 150px;
+            max-height: 200px;
+        }
+
+        .editInfoItem {
+            display: flex;
+            justify-content: space-around;
+        }
+        .showMore {
+            color: #3D7FFF;
+            position: absolute;
+            right: 5%;
+            bottom: 5%;
+            cursor: pointer;
+        }
+    }
+
+    .cardBox {
+        margin-bottom: 15px;
+    }
+    .tabBox {
+        text-align: left;
+        width: 200;
+
+        p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+    .AnchorBox {
+        position: fixed;
+        right: 50px;
+        top: 100px;
+        z-index: 999;
+    }
+
+}

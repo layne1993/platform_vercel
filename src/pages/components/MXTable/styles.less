@@ -1,0 +1,27 @@
+// .tableTitle {
+// display: flex;
+// flex-direction: row;
+// justify-content: space-between;
+// .tableTitleleft {
+// display: flex;
+// align-items: center;
+//     }
+// }
+
+.MXtable {
+    :global {
+        .ant-table-title {
+            padding: 0px 0px;
+        }
+
+        .ant-table-fixed-left table,
+        .ant-table-fixed-right table {
+            width: min-content;
+        }
+        .ant-tree.ant-tree-icon-hide {
+            position: absolute;
+            width: 100%;
+            z-index: 999;
+        }
+    }
+}

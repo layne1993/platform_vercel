@@ -1,0 +1,106 @@
+.container {
+    .header {
+        padding-right: 15px;
+
+        .queryBtn {
+            text-align: right;
+        }
+    }
+
+    .filter {
+        padding: 15px;
+        padding-left: 0;
+        display: flex;
+
+        // .filterLeft {
+        //     width: 50%;
+
+        //     :global {
+        //         .ant-space {
+        //             display: flex;
+        //             justify-content: space-between;
+        //         }
+        //     }
+        // }
+
+        .filterRight {
+            text-align: right;
+            width: 50%;
+
+            :global {
+                .ant-input {
+                    width: 25%;
+                }
+
+                .ant-select {
+                    width: 25%;
+                    text-align: left;
+                }
+            }
+        }
+
+        .btnGroup {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            :global {
+                .ant-btn {
+                    margin: 0 5px;
+                }
+
+                // .anticon {
+                //     font-size: 20px;
+                // }
+            }
+
+            .calcWrapper {
+                display: flex;
+                align-items: center;
+            }
+
+            .showMore {
+                display: inline-block;
+                margin-left: 5px;
+                color: #1890ff;
+                cursor: pointer;
+
+                :global {
+                    .anticon {
+                        display: inline-block;
+                        margin-left: 3px;
+                    }
+                }
+            }
+        }
+    }
+
+    .dataTable {
+        .operationBtn {
+            margin-bottom: 20px;
+
+            :global {
+                .ant-btn {
+                    margin-right: 5px;
+                }
+
+
+            }
+
+        }
+
+        :global {
+
+            .ant-table-fixed-left table,
+            .ant-table-fixed-right table {
+                width: min-content;
+            }
+            .ant-table-tbody {
+                .details {
+                    color: #3D7FFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

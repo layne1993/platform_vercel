@@ -1,0 +1,31 @@
+.container {
+    :global {
+        .ant-row {
+            justify-content: space-between;
+
+            .ant-form-item-label {
+                text-align: left;
+            }
+        }
+    }
+
+    .btnGroup {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .checkWrap {
+        position: relative;
+
+        :global {
+            .ant-form-item {
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translate(0, -50%);
+            }
+        }
+    }
+}

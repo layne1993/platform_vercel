@@ -1,0 +1,46 @@
+.container {
+    :global {
+        .ant-card {
+            margin-bottom: 20px;
+
+            .ant-card-head {
+                margin-bottom: 0;
+
+                .ant-card-head-title {
+                    font-weight: 800;
+                }
+            }
+
+            .ant-card-body {
+                background: #ffffff !important;
+                padding: 24px !important;
+            }
+        }
+    }
+
+    .dataTable {
+        .operationBtn {
+            margin-bottom: 20px;
+
+            :global {
+                .ant-btn {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        :global {
+
+            .ant-table-fixed-left table,
+            .ant-table-fixed-right table {
+                width: min-content;
+            }
+            .ant-table-tbody {
+                .details {
+                    color: #3D7FFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

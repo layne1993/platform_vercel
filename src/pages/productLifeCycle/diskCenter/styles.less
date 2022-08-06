@@ -1,0 +1,63 @@
+.diskCenterWarp {
+    min-height: 300px;
+    // max-height: 500px;
+    padding: 15px;
+    background-color: white;
+    :global .ant-tree.ant-tree-directory {
+        .ant-tree-treenode-selected {
+            .ant-tree-switcher {
+                color: rgba(0, 0, 0, 0.85);
+            }
+
+            :hover {
+                background-color: white;
+            }
+        }
+    }
+
+    :global .ant-tree.ant-tree-directory .ant-tree-treenode-selected::before {
+        background-color: white;
+    }
+    :global .ant-tree.ant-tree-directory .ant-tree-treenode {
+        line-height: 30px;
+        font-size: 16px;
+        .ant-tree-node-content-wrapper.ant-tree-node-selected {
+            color: rgba(0, 0, 0, 0.85);
+        }
+    }
+
+
+}
+
+.nodeTitle {
+    display: inline-block;
+    .extra {
+        margin-left: 50px;
+    }
+}
+
+.titleBox {
+    display: inline-block;
+    position: relative;
+    .leftBox {
+        display: inline-block;
+    }
+    .extra {
+        position: absolute;
+        margin-left: 50px;
+        width: 350px;
+        color: #746d6d;
+        // top: 0px;
+        // left: 200%;
+        background-color: white;
+        .optionBtn {
+            padding: 5px;
+            img {
+                margin-bottom: 5px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+

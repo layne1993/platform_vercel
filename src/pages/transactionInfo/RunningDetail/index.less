@@ -1,0 +1,60 @@
+@import '~antd/es/style/themes/default.less';
+
+
+
+.pageHeader {
+  :global {
+    .ant-page-header-heading-extra>*+* {
+      margin-left: 8px;
+    }
+  }
+
+  .moreInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+}
+
+.stepFrom {
+  padding: 0 100px;
+}
+
+.ImgStyle {
+    width: 100px;
+    height: 110px;
+  border: 1px dashed #ccc;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.longStep {
+  display: flex;
+  width: 100%;
+
+  .stepMove {
+    cursor: pointer;
+  }
+}
+
+.steps:global(.ant-steps) {
+  // max-width: 1200px;
+  margin: 0 20px;
+  overflow: hidden;
+}
+
+:global(.ant-steps .ant-steps-item-title) {
+  font-size: 12px;
+}
+
+:global(.ant-steps.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item) {
+  // margin-right:0;
+  min-width: 135px;
+}
+
+.ImgStyle {
+    width: 100px;
+    height: 110px;
+  border: 1px dashed #ccc;
+  margin-right: 20px;
+}

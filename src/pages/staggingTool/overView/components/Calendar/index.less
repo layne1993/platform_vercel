@@ -1,0 +1,196 @@
+.staggingCalendar {
+    :global(.ant-table-thead) {
+        padding-bottom: 4px;
+        tr {
+            display: table-row;
+            vertical-align: bottom;
+
+            th {
+                width: 18%;
+            }
+
+            th:first-child,
+            th:last-child {
+                width: 100px;
+            }
+        }
+
+        :global(th.ant-table-cell) {
+            padding: 0 0 6px 0 !important;
+            background-color: #fff;
+            border-bottom: none;
+
+            &::before {
+                width: 0 !important;
+            }
+
+            .theadIconWrapper {
+                display: flex;
+                width: 100%;
+
+                .theadIconBox {
+                    width: 25px;
+                    height: 70px;
+                    line-height: 70px;
+                    background-color: #f2f4fb;
+                    border-radius: 3px;
+                    cursor: pointer;
+
+                    :global(.anticon) {
+                        color: #6d93ff;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .thead {
+                height: 70px;
+                margin: 0 5px;
+                color: #fff;
+                font-size: 18px;
+                line-height: 70px;
+                background-color: #6d93ff;
+                border-radius: 4px;
+
+                &.today {
+                    height: 86px;
+                    color: #fff;
+                    font-size: 22px;
+                    line-height: 86px;
+                    background-color: #f59a23;
+                }
+            }
+        }
+    }
+
+    :global(.ant-table-tbody) {
+        tr:nth-child(2n) {
+            td {
+                background-color: #fff;
+            }
+        }
+
+        tr:nth-child(2n + 1) {
+            td {
+                background-color: #f2f4fb;
+            }
+        }
+
+        tr td:last-child {
+            background-color: #fff;
+        }
+
+        tr[data-row-key="step1"],
+        tr[data-row-key="step2"],
+        tr[data-row-key="step4"],
+        tr[data-row-key="step6"] {
+            td:nth-child(1) {
+                background-color: #6d93ff;
+            }
+        }
+
+        tr[data-row-key="step3"],
+        tr[data-row-key="step5"],
+        tr[data-row-key="step7"] {
+            td:nth-child(1) {
+                background-color: #f2f4fb;
+            }
+        }
+    }
+
+    :global(td.ant-table-cell) {
+        padding: 20px 0 !important;
+        border: 5px solid #fff;
+        border-radius: 6px;
+
+        .tableCell {
+            margin: 0;
+            padding: 0 20px;
+
+            .tableCellItem {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-weight: 500;
+                font-size: 14px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                line-height: 20px;
+            }
+
+            .tableCellItem + .tableCellItem {
+                padding-top: 20px;
+            }
+        }
+
+        .stepCell {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #4a4a4a;
+            font-weight: 500;
+            font-size: 14px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            line-height: 17px;
+            border-radius: 3px;
+
+            &.available {
+                color: #fff;
+            }
+
+            :global(.ant-checkbox-inner) {
+                background-color: #fff;
+                border-color: #fff;
+
+                &::after {
+                    border: 2px solid #6d93ff;
+                    border-top: 0;
+                    border-left: 0;
+                }
+            }
+        }
+
+        .stepText {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+
+    .stepBox {
+        padding: 8px 0;
+        color: #333;
+        font-size: 14px;
+        :global(.ant-checkbox-wrapper) {
+            margin-right: 20px;
+        }
+    }
+
+    .actionbar {
+        display: flex;
+        align-items: center;
+        padding: 20px 0 40px 0;
+
+        .legend {
+            display: flex;
+            align-items: center;
+            margin-right: 40px;
+
+            .legendItem {
+                margin-right: 24px;
+            }
+
+            .legandTag {
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                margin-right: 12px;
+                vertical-align: sub;
+                border-radius: 50%;
+            }
+        }
+
+        .searchForm {
+            margin-left: 64px;
+        }
+    }
+}

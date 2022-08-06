@@ -1,0 +1,43 @@
+.container {
+    .filter {
+        padding: 15px;
+        padding-left: 0;
+
+        .btnGroup {
+            text-align: right;
+
+            :global {
+                .ant-btn {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+
+    .dataTable {
+        .operationBtn {
+            margin-bottom: 20px;
+
+            :global {
+                .ant-btn {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        :global {
+
+            .ant-table-fixed-left table,
+            .ant-table-fixed-right table {
+                width: min-content;
+            }
+
+            .ant-table-tbody {
+                .details {
+                    color: #3D7FFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

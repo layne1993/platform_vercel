@@ -1,0 +1,55 @@
+.newBuildSubject{
+  display:inline-block;
+  margin-left: 10px;
+  line-height:32px;
+  width:56px;
+}
+:global{
+  .edit-tag{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    span:nth-of-type(1){
+      width:80%;
+      text-align: left;
+    }
+    .anticon {
+      margin-left: 7px;
+      line-height: 18px;
+    }
+  }
+  .ant-tag,.tag-input{
+    height:30px;
+  }
+  .ant-form-item-control-input-content{
+    display: flex;
+  }
+  .site-tag-plus{
+    width: calc(100% - 30px);
+    padding: 0 13px!important;
+    margin-right:0!important;
+  }
+  [data-rbd-drag-handle-context-id="0"]{
+    padding: 0;
+  }
+}
+.conlumnSortModel {
+  :global {
+    .ant-modal-body {
+     max-height:600px;
+     overflow-y: scroll;
+    }
+  }
+  .consulteQestionModalLoading{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background:rgba(255,255,255,0.7);
+  }
+}

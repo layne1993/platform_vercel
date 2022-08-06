@@ -1,0 +1,50 @@
+@import '~antd/es/style/themes/default.less';
+
+.container {
+    font-size: 14px;
+
+    .searchForm {
+        .formBtn {
+            text-align: right;
+        }
+    }
+
+    .tipsWrapper {
+        margin-top: -24px;
+        margin-bottom: 24px;
+    }
+
+    .dataTable {
+        :global {
+
+            .ant-table-fixed-left table,
+            .ant-table-fixed-right table {
+                width: min-content;
+            }
+            .ant-table-tbody {
+                .details {
+                    color: #3D7FFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+
+.Overwritefont {
+    :global {
+
+        .ant-radio-wrapper {
+            font-size: 12px !important
+        }
+    }
+}
+
+.goToT15Span {
+    cursor: pointer;
+    color: #1890ff;
+    &:hover {
+        color: #40a9ff
+    }
+}

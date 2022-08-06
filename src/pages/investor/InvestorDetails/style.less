@@ -1,0 +1,79 @@
+@import '~antd/es/style/themes/default.less';
+
+.pageHeader {
+
+    // :global {
+    //     .ant-card-body {
+    //         padding-top: 0;
+    //     }
+    // }
+
+    // :global {
+    //     .ant-tabs-nav-list {
+    //         width: 100%;
+    //         justify-content: space-between;
+    //     }
+    // }
+}
+
+
+.btngrouping {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.formBtn {
+    text-align: right;
+}
+
+
+
+.evaluation {
+    padding: 0 5px;
+}
+
+.EvaluationInfo {
+    margin: 10px;
+
+    :global(.ant-card-body) {
+        padding: 24px 3px;
+    }
+
+    :global(.ant-upload-list) {
+        display: none !important;
+    }
+}
+
+#hot-display-license-info {
+    display: none !important;
+}
+
+.stepForm {
+    :global(.ant-upload-list) {
+        display: none !important;
+    }
+}
+
+.HotTable {
+    :global {
+        .ant-modal-body {
+            #hot-display-license-info {
+                display: none !important;
+            }
+        }
+    }
+}
+
+.typeTitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btnGroup {
+    :global {
+        .ant-btn {
+            margin-right: 8px;
+        }
+    }
+}

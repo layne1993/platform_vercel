@@ -1,0 +1,30 @@
+.confirmationDocument {
+    .documentTips {
+        display: flex;
+        justify-content: flex-start;
+
+        &>p {
+            font-size: 16px;
+        }
+
+        &>p:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    .operationBox {
+        display: flex;
+        justify-content: space-around;
+        color: #40a9ff;
+
+        &>span {
+            cursor: pointer;
+        }
+    }
+
+    .btns {
+        .resetBtn {
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.container {
+    background-color: white;
+    // padding: 10px 15px;
+    .header {
+        // display: flex;
+        // justify-content: space-around;
+        // height: 100px;
+        // align-items: center;
+        p {
+            margin-bottom: 5px;
+        }
+    }
+
+    .filter {
+        padding: 15px;
+        padding-left: 0;
+
+        .btnGroup {
+            text-align: right;
+
+            .showMore {
+                display: inline-block;
+                margin-left: 5px;
+                color: #1890ff;
+                cursor: pointer;
+
+                :global {
+                    .anticon {
+                        display: inline-block;
+                        margin-left: 3px;
+                    }
+                }
+            }
+
+            :global {
+                .ant-btn {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+
+    .dataTable {
+        .operationBtn {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        :global {
+
+            .ant-table-tbody {
+                .details {
+                    color: #3D7FFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

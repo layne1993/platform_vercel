@@ -1,0 +1,46 @@
+.stepInfoModal {
+    :global(.ant-col) {
+        .item {
+            display: flex;
+
+            .label {
+                &::before {
+                    display: inline-block;
+                    margin-right: 4px;
+                    color: #ff4d4f;
+                    font-size: 14px;
+                    font-family: SimSun, sans-serif;
+                    content: '*';
+                }
+            }
+
+            .right {
+                .iconBox {
+                    display: inline-block;
+                    padding: 20px 24px;
+                    border: 1px solid #bbb;
+                    border-radius: 4px;
+                    cursor: pointer;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+
+                p {
+                    color: #666;
+                    font-size: 14px;
+                    margin-top: 12px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    :global(.ant-modal-footer) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}

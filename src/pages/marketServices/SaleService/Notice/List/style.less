@@ -1,0 +1,41 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~@/utils/utils.less';
+
+.pageHeaderContent {
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+}
+
+.tabCard {
+  :global {
+    .ant-card-body {
+      padding-top: 0;
+      padding-left: 10px;
+    }
+  }
+}
+
+.tableList {
+  .tableListOperator {
+    margin-bottom: 16px;
+    button {
+      margin-right: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-lg) {
+  .tableListForm :global(.ant-form-item) {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: @screen-md) {
+  .tableListForm :global(.ant-form-item) {
+    margin-right: 8px;
+  }
+}

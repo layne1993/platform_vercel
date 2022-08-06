@@ -1,0 +1,43 @@
+@import '~antd/es/style/themes/default.less';
+@import '~handsontable/dist/handsontable.full.css';
+
+.investorListForm {
+  font-size: 12px;
+  padding: 0px;
+
+  .searchForm {
+    .formBtn {
+      text-align: right;
+      float: right;
+    }
+  }
+
+  .productList {
+    background: #fff;
+    padding: 0 24px 30px;
+    min-height: 250px;
+
+  }
+}
+
+.tabsCard {
+  padding: 8px;
+
+}
+
+.DataSummary {
+  margin: 20px 0;
+}
+#hot-display-license-info {
+  display: none !important;
+}
+
+.HotTable {
+  :global {
+    .ant-modal-body {
+      #hot-display-license-info {
+        display: none !important;
+      }
+    }
+  }
+}
